@@ -1,0 +1,32 @@
+name: NPS
+type: theme
+description: 'Custom Theme for My Website.'
+package: Custom
+core_version_requirement: ^8 || ^9
+
+stylesheet-remove:
+  -"stylesheet to be removed"
+libraries:
+  - nps/global-styling
+
+regions:
+  header: 'Header'
+  header_logo: 'Header Logo'
+  header_go: 'Header go'
+  primary_menu: 'Primary menu'
+  content: 'Content'
+  header: 'Header'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  footer_top_left: "footer_top_left"
+  footer_top_right: "footer_top_right"
+  footer_top_center: "footer_top_center"
+  footer_bottom_center: "footer_bottom_center"
+  highlighted: 'Highlighted'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+  yasir: 'Yasir'

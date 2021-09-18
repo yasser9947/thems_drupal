@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Classy theme.
+ */
+
+function fluffiness_preprocess_page(&$variables) {
+  $variables['page']['#cache']['contexts'][] = 'route';
+  $route = "entity.node.preview";
+  if (\Drupal::routeMatch()->getRouteName() === $route) {
+    $variables['#attached']['library'][] = 'custom/node-preview';
+  }
+}

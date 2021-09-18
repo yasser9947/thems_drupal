@@ -1,0 +1,25 @@
+name: Custom Theme
+type: theme
+description: 'Custom Theme for My Website.'
+package: Custom
+core_version_requirement: ^8 || ^9
+
+stylesheet-remove:
+  -"stylesheet to be removed"
+libraries:
+  - custom_theme/global-styling
+
+regions:
+  content: 'Content'
+  header: 'Header'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+  yasir: 'Yasir'
